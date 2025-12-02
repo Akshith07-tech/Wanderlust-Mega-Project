@@ -28,13 +28,32 @@ WanderLust is a simple MERN travel blog website ✈ This project is aimed to hel
 
 ### How pipeline will look after deployment:
 - <b>CI pipeline to build and push</b>
-![image](https://github.com/user-attachments/assets/20542d8b-0701-43ed-b2f8-82f8ed28d053)
+
+![image](Assets/J-SV.png)
+
+- <b>CI pipeline to update application version</b>
+
+![image](Assets/J-CI.png)
 
 - <b>CD pipeline to update application version</b>
-![image](https://github.com/user-attachments/assets/8fd13807-622e-45f7-af23-dcc1ba30ca5d)
+
+![image](Assets/J-CD.png)
 
 - <b>ArgoCD application for deployment on EKS</b>
-![image](https://github.com/user-attachments/assets/1ea9d486-656e-40f1-804d-2651efb54cf6)
+
+![image](Assets/argoCD1.png)
+
+- <b>ArgoCD application for deployment on EKS</b>
+
+![image](Assets/argoCD2.png)
+
+- <b>prometheus application for deployment on EKS</b>
+
+![image](Assets/prometheus.png)
+
+- <b>SonarQube application for deployment on EKS</b>
+
+![image](Assets/sonarqube.png)
 
 #
 > [!Important]
@@ -409,15 +428,15 @@ chmod 777 /var/run/docker.sock
 ![image](https://github.com/user-attachments/assets/3e2468ff-8cb2-4bda-a8cc-0742cd6d0cae)
 
 - <b>Congratulations, your application is deployed on AWS EKS Cluster</b>
-![image](https://github.com/user-attachments/assets/bc2d9680-fe00-49f9-81bf-93c5595c20cc)
-![image](https://github.com/user-attachments/assets/1ea9d486-656e-40f1-804d-2651efb54cf6)
+![image](Assets/argoCD1.png)
+![image](Assets/argoCD2.png)
 - <b>Open port 31000 and 31100 on worker node and Access it on browser</b>
 ```bash
 <worker-public-ip>:31000
 ```
-![image](https://github.com/user-attachments/assets/a4b2a4b4-e1aa-4b22-ac6b-f40003d0723a)
-![image](https://github.com/user-attachments/assets/06f9f1c8-094d-4d9f-a9d8-256fb18a9ae4)
-![image](https://github.com/user-attachments/assets/64394f90-8610-44c0-9f63-c3a21eb78f55)
+![image](Assets/frontend1.png)
+![image](Assets/frontend2.png)
+![image](Assets/backend.png)
 - <b>Email Notification</b>
 ![image](https://github.com/user-attachments/assets/0ab1ef47-f939-4618-8651-6aa9274721f4)
 
@@ -513,9 +532,9 @@ kubectl get secret --namespace prometheus stable-grafana -o jsonpath="{.data.adm
 
 #
 - Now, view the Dashboard in Grafana
-![image](https://github.com/user-attachments/assets/d2e7ff2f-059d-48c4-92bb-9711943819c4)
-![image](https://github.com/user-attachments/assets/3d6652d0-7795-4fe9-8919-f33eac88db73)
-![image](https://github.com/user-attachments/assets/13321ee5-5d7b-4976-b409-25d3b865a42a)
+![image](Assets/grafana1.png)
+![image](Assets/grafana2.png)
+![image](Assets/grafana3.png)
 ![image](https://github.com/user-attachments/assets/75a22e4b-ae81-4cad-9c92-21dd90d126a8)
 
 #
